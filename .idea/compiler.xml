@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="aegis-parent" />
+        <module name="aegis-api" />
+        <module name="aegis-app" />
+        <module name="aegis-borowser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aegis-api" target="1.5" />
+      <module name="aegis-app" target="1.5" />
+      <module name="aegis-borowser" target="1.5" />
       <module name="aegis-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
