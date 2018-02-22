@@ -11,5 +11,11 @@
 
     <artifactId>aegis-app</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.vxianjin.aegis</groupId>
+            <artifactId>aegis-core</artifactId>
+            <version>${aegis.version}</version>
+        </dependency>
+    </dependencies>
 </project>

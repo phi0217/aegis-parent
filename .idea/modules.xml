@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aegis-api/aegis-api.iml" filepath="$PROJECT_DIR$/aegis-api/aegis-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/aegis-app/aegis-app.iml" filepath="$PROJECT_DIR$/aegis-app/aegis-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aegis-borowser/aegis-borowser.iml" filepath="$PROJECT_DIR$/aegis-borowser/aegis-borowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aegis-browser/aegis-browser.iml" filepath="$PROJECT_DIR$/aegis-browser/aegis-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aegis-core/aegis-core.iml" filepath="$PROJECT_DIR$/aegis-core/aegis-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aegis-demo/aegis-demo.iml" filepath="$PROJECT_DIR$/aegis-demo/aegis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aegis-parent.iml" filepath="$PROJECT_DIR$/aegis-parent.iml" />
     </modules>
   </component>

@@ -8,14 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aegis-api" />
         <module name="aegis-app" />
-        <module name="aegis-borowser" />
+        <module name="aegis-browser" />
+        <module name="aegis-core" />
+        <module name="aegis-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aegis-api" target="1.5" />
-      <module name="aegis-app" target="1.5" />
-      <module name="aegis-borowser" target="1.5" />
-      <module name="aegis-parent" target="1.5" />
+      <module name="aegis-api" target="1.8" />
+      <module name="aegis-app" target="1.8" />
+      <module name="aegis-browser" target="1.8" />
+      <module name="aegis-core" target="1.8" />
+      <module name="aegis-demo" target="1.8" />
+      <module name="aegis-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
