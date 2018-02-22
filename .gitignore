@@ -5,3 +5,12 @@
 # IntelliJ project files
 .idea
 *.iml
+
+target
+*.class
+classes
+lib
+.classpath
+.settings
+.project
+logs
