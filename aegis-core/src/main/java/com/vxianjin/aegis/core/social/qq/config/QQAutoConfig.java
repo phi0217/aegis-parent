@@ -17,7 +17,7 @@ import org.springframework.social.connect.ConnectionFactory;
  *
  */
 @Configuration
-@ConditionalOnProperty(prefix = "imooc.security.social.qq", name = "app-id")
+@ConditionalOnProperty(prefix = "vxianjin.aegis.social.qq", name = "app-id")
 public class QQAutoConfig extends SocialAutoConfigurerAdapter {
 
 	@Autowired

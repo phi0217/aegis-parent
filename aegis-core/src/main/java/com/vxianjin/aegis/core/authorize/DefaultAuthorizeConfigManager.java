@@ -17,7 +17,7 @@ import java.util.List;
  *
  */
 @Component
-public class ImoocAuthorizeConfigManager implements AuthorizeConfigManager {
+public class DefaultAuthorizeConfigManager implements AuthorizeConfigManager {
 
 	@Autowired
 	private List<AuthorizeConfigProvider> authorizeConfigProviders;

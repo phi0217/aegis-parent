@@ -8,6 +8,8 @@ import com.vxianjin.aegis.core.authentication.mobile.SmsCodeAuthenticationSecuri
 import com.vxianjin.aegis.core.authorize.AuthorizeConfigManager;
 import com.vxianjin.aegis.core.properties.SecurityProperties;
 import com.vxianjin.aegis.core.validate.code.ValidateCodeSecurityConfig;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -31,6 +33,7 @@ import javax.sql.DataSource;
  */
 @Configuration
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
+	private Logger logger = LoggerFactory.getLogger(getClass());
 	
 	@Autowired
 	private SecurityProperties securityProperties;
@@ -48,7 +51,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 	private ValidateCodeSecurityConfig validateCodeSecurityConfig;
 	
 	@Autowired
-	private SpringSocialConfigurer imoocSocialSecurityConfig;
+	private SpringSocialConfigurer springSocialConfigurer;
 	
 	@Autowired
 	private SessionInformationExpiredStrategy sessionInformationExpiredStrategy;
@@ -67,14 +70,15 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		
+		logger.info("浏览器配置项执行开始");
+
 		formAuthenticationConfig.configure(http);
 		
 		http.apply(validateCodeSecurityConfig)
 				.and()
 			.apply(smsCodeAuthenticationSecurityConfig)
 				.and()
-			.apply(imoocSocialSecurityConfig)
+			.apply(springSocialConfigurer)
 				.and()
 			//记住我配置，如果想在'记住我'登录时记录日志，可以注册一个InteractiveAuthenticationSuccessEvent事件的监听器
 			.rememberMe()

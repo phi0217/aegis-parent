@@ -4,10 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/aegis-app/pom.xml" />
         <option value="$PROJECT_DIR$/aegisdemo/pom.xml" />
       </set>
     </option>

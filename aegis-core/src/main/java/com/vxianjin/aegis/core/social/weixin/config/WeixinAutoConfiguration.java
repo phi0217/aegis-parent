@@ -5,7 +5,7 @@ package com.vxianjin.aegis.core.social.weixin.config;
 
 import com.vxianjin.aegis.core.properties.SecurityProperties;
 import com.vxianjin.aegis.core.properties.WeixinProperties;
-import com.vxianjin.aegis.core.social.view.ImoocConnectView;
+import com.vxianjin.aegis.core.social.view.DefaultConnectView;
 import com.vxianjin.aegis.core.social.weixin.connect.WeixinConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -23,7 +23,7 @@ import org.springframework.web.servlet.View;
  *
  */
 @Configuration
-@ConditionalOnProperty(prefix = "imooc.security.social.weixin", name = "app-id")
+@ConditionalOnProperty(prefix = "vxianjin.aegis.social.weixin", name = "app-id")
 public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 
 	@Autowired
@@ -46,7 +46,7 @@ public class WeixinAutoConfiguration extends SocialAutoConfigurerAdapter {
 	@Bean({"connect/weixinConnect", "connect/weixinConnected"})
 	@ConditionalOnMissingBean(name = "weixinConnectedView")
 	public View weixinConnectedView() {
-		return new ImoocConnectView();
+		return new DefaultConnectView();
 	}
 	
 }

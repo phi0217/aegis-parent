@@ -22,7 +22,7 @@ import java.util.Map;
  *
  */
 @Component("connect/status")
-public class ImoocConnectionStatusView extends AbstractView {
+public class DefaultConnectionStatusView extends AbstractView {
 	
 	@Autowired
 	private ObjectMapper objectMapper;

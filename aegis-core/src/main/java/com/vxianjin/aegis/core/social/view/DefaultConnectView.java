@@ -14,7 +14,7 @@ import java.util.Map;
  * @author zhailiang
  *
  */
-public class ImoocConnectView extends AbstractView {
+public class DefaultConnectView extends AbstractView {
 
 	/*
 	 * (non-Javadoc)

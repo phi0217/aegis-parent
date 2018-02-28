@@ -8,7 +8,6 @@ import com.vxianjin.aegis.core.properties.SecurityProperties;
 import com.vxianjin.aegis.core.social.SocialController;
 import com.vxianjin.aegis.core.social.support.SocialUserInfo;
 import com.vxianjin.aegis.core.support.SimpleResponse;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,9 +68,10 @@ public class BrowserSecurityController extends SocialController {
 		if (savedRequest != null) {
 			String targetUrl = savedRequest.getRedirectUrl();
 			logger.info("引发跳转的请求是:" + targetUrl);
-			if (StringUtils.endsWithIgnoreCase(targetUrl, ".html")) {
-				redirectStrategy.sendRedirect(request, response, securityProperties.getBrowser().getSignInPage());
-			}
+			//针对某些请求才进行跳页处理，目前对于所有请求都进行跳页处理
+//			if (StringUtils.endsWithIgnoreCase(targetUrl, ".html")) {
+//			}
+			redirectStrategy.sendRedirect(request, response, securityProperties.getBrowser().getSignInPage());
 		}
 
 		return new SimpleResponse("访问的服务需要身份认证，请引导用户到登录页");

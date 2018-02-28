@@ -12,8 +12,8 @@
     <modules>
         <module>aegis-core</module>
         <module>aegis-browser</module>
-        <module>aegis-app</module>
         <module>aegis-demo</module>
+        <module>aegis-authorize</module>
     </modules>
 
 

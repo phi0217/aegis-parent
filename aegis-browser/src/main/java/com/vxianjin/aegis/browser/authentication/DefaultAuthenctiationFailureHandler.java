@@ -19,7 +19,6 @@ import java.io.IOException;
 
 /**
  * 浏览器环境下登录失败的处理器
- * 
  */
 @Component("defaultAuthenctiationFailureHandler")
 public class DefaultAuthenctiationFailureHandler extends SimpleUrlAuthenticationFailureHandler {

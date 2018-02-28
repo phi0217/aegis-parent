@@ -9,7 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author zhailiang
  *
  */
-@ConfigurationProperties(prefix = "imooc.security")
+@ConfigurationProperties(prefix = "vxianjin.aegis")
 public class SecurityProperties {
 	
 	/**

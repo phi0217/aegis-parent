@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Order(Integer.MIN_VALUE)
-public class ImoocAuthorizeConfigProvider implements AuthorizeConfigProvider {
+public class DefaultAuthorizeConfigProvider implements AuthorizeConfigProvider {
 
 	@Autowired
 	private SecurityProperties securityProperties;

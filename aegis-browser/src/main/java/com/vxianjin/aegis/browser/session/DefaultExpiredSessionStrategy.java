@@ -9,8 +9,6 @@ import java.io.IOException;
 
 /**
  * 并发登录导致session失效时，默认的处理策略
- * 
- *
  */
 public class DefaultExpiredSessionStrategy extends AbstractSessionStrategy implements SessionInformationExpiredStrategy {
 
@@ -27,7 +25,7 @@ public class DefaultExpiredSessionStrategy extends AbstractSessionStrategy imple
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.imooc.security.browser.session.AbstractSessionStrategy#isConcurrency()
+	 * @see com.vxianjin.aegis.browser.session.AbstractSessionStrategy#isConcurrency()
 	 */
 	@Override
 	protected boolean isConcurrency() {

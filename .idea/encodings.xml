@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aegis-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aegis-authorize" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aegis-browser" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aegis-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aegis-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core" charset="UTF-8" />
   </component>
 </project>

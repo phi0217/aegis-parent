@@ -28,10 +28,10 @@ import java.util.UUID;
 public class SmsCodeAuthenticationSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
 	
 	@Autowired
-	private AuthenticationSuccessHandler imoocAuthenticationSuccessHandler;
+	private AuthenticationSuccessHandler defaultAuthenticationSuccessHandler;
 	
 	@Autowired
-	private AuthenticationFailureHandler imoocAuthenticationFailureHandler;
+	private AuthenticationFailureHandler defaultAuthenticationFailureHandler;
 	
 	@Autowired
 	private UserDetailsService userDetailsService;
@@ -47,8 +47,8 @@ public class SmsCodeAuthenticationSecurityConfig extends SecurityConfigurerAdapt
 		
 		SmsCodeAuthenticationFilter smsCodeAuthenticationFilter = new SmsCodeAuthenticationFilter();
 		smsCodeAuthenticationFilter.setAuthenticationManager(http.getSharedObject(AuthenticationManager.class));
-		smsCodeAuthenticationFilter.setAuthenticationSuccessHandler(imoocAuthenticationSuccessHandler);
-		smsCodeAuthenticationFilter.setAuthenticationFailureHandler(imoocAuthenticationFailureHandler);
+		smsCodeAuthenticationFilter.setAuthenticationSuccessHandler(defaultAuthenticationSuccessHandler);
+		smsCodeAuthenticationFilter.setAuthenticationFailureHandler(defaultAuthenticationFailureHandler);
 		String key = UUID.randomUUID().toString();
 		smsCodeAuthenticationFilter.setRememberMeServices(new PersistentTokenBasedRememberMeServices(key, userDetailsService, persistentTokenRepository));
 		

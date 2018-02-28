@@ -4,7 +4,7 @@
 package com.vxianjin.aegis.core.social;
 
 import com.vxianjin.aegis.core.properties.SecurityProperties;
-import com.vxianjin.aegis.core.social.support.ImoocSpringSocialConfigurer;
+import com.vxianjin.aegis.core.social.support.DefaultSpringSocialConfigurer;
 import com.vxianjin.aegis.core.social.support.SocialAuthenticationFilterPostProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -50,7 +50,7 @@ public class SocialConfig extends SocialConfigurerAdapter {
 	public UsersConnectionRepository getUsersConnectionRepository(ConnectionFactoryLocator connectionFactoryLocator) {
 		JdbcUsersConnectionRepository repository = new JdbcUsersConnectionRepository(dataSource,
 				connectionFactoryLocator, Encryptors.noOpText());
-		repository.setTablePrefix("imooc_");
+		repository.setTablePrefix("aegis_");
 		if(connectionSignUp != null) {
 			repository.setConnectionSignUp(connectionSignUp);
 		}
@@ -62,9 +62,9 @@ public class SocialConfig extends SocialConfigurerAdapter {
 	 * @return
 	 */
 	@Bean
-	public SpringSocialConfigurer imoocSocialSecurityConfig() {
+	public SpringSocialConfigurer defaultSocialSecurityConfig() {
 		String filterProcessesUrl = securityProperties.getSocial().getFilterProcessesUrl();
-		ImoocSpringSocialConfigurer configurer = new ImoocSpringSocialConfigurer(filterProcessesUrl);
+		DefaultSpringSocialConfigurer configurer = new DefaultSpringSocialConfigurer(filterProcessesUrl);
 		configurer.signupUrl(securityProperties.getBrowser().getSignUpUrl());
 		configurer.setSocialAuthenticationFilterPostProcessor(socialAuthenticationFilterPostProcessor);
 		return configurer;
