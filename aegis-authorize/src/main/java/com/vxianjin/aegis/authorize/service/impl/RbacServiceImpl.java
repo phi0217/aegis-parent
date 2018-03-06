@@ -36,7 +36,7 @@ public class RbacServiceImpl implements RbacService {
 				//读取用户所拥有权限的所有URL
 				//Set<String> urls = ((Admin) principal).getUrls();
 
-				Set<String> urls = getUrls();
+				Set<String> urls = ((BackUser) principal).getUrls();
 				for (String url : urls) {
 					if (antPathMatcher.match(url, request.getRequestURI())) {
 						hasPermission = true;
@@ -49,7 +49,7 @@ public class RbacServiceImpl implements RbacService {
 		return hasPermission;
 	}
 
-	private Set<String> getUrls(){
-		return null;
-	}
+//	private Set<String> getUrls(){
+//		return null;
+//	}
 }

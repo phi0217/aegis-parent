@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Set;
@@ -26,7 +27,8 @@ public class Test1 {
     private BackModuleRepository backModuleRepository;
     @Autowired
     private BackModuleService backModuleService;
-
+    @Autowired
+    private PasswordEncoder passwordEncoder;
     @Autowired
     private BackUserRepository backUserRepository;
 
@@ -46,4 +48,11 @@ public class Test1 {
         BackUser byUsername = backUserRepository.findByTelephone("13552362190");
         System.out.println();
     }
+    @Test
+    public void test3(){
+        String encode = passwordEncoder.encode("123456");
+        System.out.println();
+    }
+
+
 }

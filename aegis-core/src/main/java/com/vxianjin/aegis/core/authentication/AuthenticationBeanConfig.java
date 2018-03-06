@@ -33,7 +33,7 @@ public class AuthenticationBeanConfig {
 	}
 	
 	/**
-	 * 默认认证器
+	 * 默认认证器，默认的 UserDetailsService 实现
 	 * 
 	 * @return
 	 */
@@ -44,7 +44,7 @@ public class AuthenticationBeanConfig {
 	}
 
 	/**
-	 * 默认认证器
+	 * 默认认证器，默认的SocialUserDetailsService实现
 	 * 
 	 * @return
 	 */

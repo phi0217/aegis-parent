@@ -16,7 +16,7 @@ public class BrowserProperties {
 	 */
 	private SessionProperties session = new SessionProperties();
 	/**
-	 * 登录页面，当引发登录行为的url以html结尾时，会跳到这里配置的url上
+	 * 登录页面，当引发登录行为的url，会跳到这里配置的url上
 	 */
 	private String signInPage = SecurityConstants.DEFAULT_SIGN_IN_PAGE_URL;
 	/**

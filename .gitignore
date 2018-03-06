@@ -3,14 +3,18 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
-
 target
+.idea
 *.class
+*.iml
 classes
 lib
 .classpath
 .settings
 .project
 logs
+
+
+aegis-authorize/src/test/
+aegis-browser/src/test/
+aegis-core/src/test/
