@@ -21,7 +21,6 @@ import java.util.Set;
  *
  */
 @Service
-@Transactional
 public class BackModuleServiceImpl implements BackModuleService {
 	
 	@Autowired
@@ -78,20 +77,6 @@ public class BackModuleServiceImpl implements BackModuleService {
 		return urls;
 	}
 
-
-	/* (non-Javadoc)
-	 * @see com.idea.ams.service.ResourceService#getResourceTree(java.lang.Long, com.idea.ams.domain.Admin)
-	 */
-//	@Override
-//	public ResourceInfo getTree(Long adminId) {
-//		Admin admin = adminRepository.findOne(adminId);
-//		return resourceRepository.findByName("根节点").toTree(admin);
-//	}
-
-	/* (non-Javadoc)
-	 * @see com.vxianjin.aegis.authorize.service.ResourceService#getInfo(java.lang.Long)
-	 */
-
 	@Override
 	public ResourceInfo getInfo(Long id) {
 		BackModule backModule = backModuleRepository.findOne(id);
@@ -100,60 +85,5 @@ public class BackModuleServiceImpl implements BackModuleService {
 		return resourceInfo;
 	}
 
-//	@Override
-//	public ResourceInfo create(ResourceInfo info) {
-//		Resource parent = resourceRepository.findOne(info.getParentId());
-//		if(parent == null){
-//			parent = resourceRepository.findByName("根节点");
-//		}
-//		Resource resource = new Resource();
-//		BeanUtils.copyProperties(info, resource);
-//		parent.addChild(resource);
-//		info.setId(resourceRepository.save(resource).getId());
-//		return info;
-//	}
-
-	@Override
-	public ResourceInfo update(ResourceInfo info) {
-		BackModule backModule = backModuleRepository.findOne(info.getId());
-		BeanUtils.copyProperties(info, backModule);
-		return info;
-	}
-
-	@Override
-	public void delete(Long id) {
-		backModuleRepository.delete(id);
-	}
-	/* (non-Javadoc)
-	 * @see com.vxianjin.aegis.authorize.service.ResourceService#move(java.lang.Long, boolean)
-	 */
-//	@Override
-//	public Long move(Long id, boolean up) {
-//		BackModule backModule = resourceRepository.findOne(id);
-//		int index = backModule.getSort();
-//		List<BackModule> childs = backModule.getParent().getChilds();
-//		for (int i = 0; i < childs.size(); i++) {
-//			BackModule current = childs.get(i);
-//			if(current.getId().equals(id)) {
-//				if(up){
-//					if(i != 0) {
-//						BackModule pre = childs.get(i - 1);
-//						backModule.setSort(pre.getSort());
-//						pre.setSort(index);
-//						resourceRepository.save(pre);
-//					}
-//				}else{
-//					if(i != childs.size()-1) {
-//						BackModule next = childs.get(i + 1);
-//						backModule.setSort(next.getSort());
-//						next.setSort(index);
-//						resourceRepository.save(next);
-//					}
-//				}
-//			}
-//		}
-//		resourceRepository.save(backModule);
-//		return backModule.getParent().getId();
-//	}
 
 }

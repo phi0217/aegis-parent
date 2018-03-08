@@ -98,7 +98,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 				.logoutSuccessHandler(logoutSuccessHandler)
 				.deleteCookies("JSESSIONID")
 				.and()
-			.csrf().disable();
+			.csrf().disable()
+				.headers().frameOptions().sameOrigin();
 		
 		authorizeConfigManager.config(http.authorizeRequests());
 		

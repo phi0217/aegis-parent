@@ -18,7 +18,7 @@ public interface BackModuleService {
 	/**
 	 * 获取资源树
 	 *
-	 * @param userId 用户ID
+	 * @param username 用户ID
 	 * @date  2015年7月10日下午7:08:26
 	 * @since 1.0.0
 	*/
@@ -52,7 +52,7 @@ public interface BackModuleService {
 	 * @date  2015年7月10日下午7:01:54
 	 * @since 1.0.0
 	*/
-	ResourceInfo update(ResourceInfo info);
+//	ResourceInfo update(ResourceInfo info);
 	/**
 	 * 根据指定ID删除资源信息
 	 *
@@ -60,7 +60,7 @@ public interface BackModuleService {
 	 * @date  2015年7月10日下午7:01:57
 	 * @since 1.0.0
 	*/
-	void delete(Long id);
+//	void delete(Long id);
 	/**
 	 * 上移/下移资源
 	 * @param id

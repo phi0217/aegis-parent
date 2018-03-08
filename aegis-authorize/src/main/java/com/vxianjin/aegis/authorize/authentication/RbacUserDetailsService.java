@@ -6,6 +6,7 @@ package com.vxianjin.aegis.authorize.authentication;
 import com.vxianjin.aegis.authorize.domain.BackUser;
 import com.vxianjin.aegis.authorize.repository.BackUserRepository;
 import com.vxianjin.aegis.authorize.service.BackModuleService;
+import com.vxianjin.aegis.authorize.service.BackUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class RbacUserDetailsService implements UserDetailsService {
 	@Autowired
 	private BackUserRepository backUserRepository;
 	@Autowired
-	private BackModuleService backModuleService;
+	private BackUserService backUserService;
 
 	/*
 	 * (non-Javadoc)
@@ -39,8 +40,7 @@ public class RbacUserDetailsService implements UserDetailsService {
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		logger.info("表单登录用户名:" + username);
-		BackUser backUser = backUserRepository.findByTelephone(username);
-		backUser.setUrls(backModuleService.getUrlsByBackUser(username));
+		BackUser backUser = backUserService.getBackUser(username);
 		return backUser;
 	}
 

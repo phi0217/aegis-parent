@@ -20,8 +20,22 @@ public class BackRole implements Serializable {
     @Column(name = "name")
     private String  name ;
 
+    @Column(name = "summary")
+    private String  summary ;
+
     @Column(name = "super_id")
     private Integer  superId ;
+
+    @Column(name = "add_time")
+    private Date  addTime ;
+
+    @Column(name = "add_ip")
+    private String  addIp ;
+
+    @Transient
+    private Integer selected = 0;//用户拥有角色1 未拥有0
+    @Transient
+    private List<BackModule> selectedModules = new ArrayList<>();
 
     public Integer getId() {
         return id;
@@ -39,11 +53,51 @@ public class BackRole implements Serializable {
         this.name = name;
     }
 
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
     public Integer getSuperId() {
         return superId;
     }
 
     public void setSuperId(Integer superId) {
         this.superId = superId;
+    }
+
+    public Date getAddTime() {
+        return addTime;
+    }
+
+    public void setAddTime(Date addTime) {
+        this.addTime = addTime;
+    }
+
+    public String getAddIp() {
+        return addIp;
+    }
+
+    public void setAddIp(String addIp) {
+        this.addIp = addIp;
+    }
+
+    public List<BackModule> getSelectedModules() {
+        return selectedModules;
+    }
+
+    public void setSelectedModules(List<BackModule> selectedModules) {
+        this.selectedModules = selectedModules;
+    }
+
+    public Integer getSelected() {
+        return selected;
+    }
+
+    public void setSelected(Integer selected) {
+        this.selected = selected;
     }
 }

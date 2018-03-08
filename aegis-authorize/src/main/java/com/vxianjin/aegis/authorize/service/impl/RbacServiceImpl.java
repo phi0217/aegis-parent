@@ -29,8 +29,8 @@ public class RbacServiceImpl implements RbacService {
 		boolean hasPermission = false;
 
 		if (principal instanceof BackUser) {
-			//如果用户名是admin，就永远返回true
-			if (StringUtils.equals(((BackUser) principal).getUsername(), "admin")) {
+			//如果用户名是001，就永远返回true
+			if (StringUtils.equals(((BackUser) principal).getUsername(), "001")) {
 				hasPermission = true;
 			} else {
 				//读取用户所拥有权限的所有URL

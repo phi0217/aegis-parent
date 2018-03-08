@@ -2,28 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2a3f1e-61b8-4658-b6bd-fe2b97ed1077" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackModuleType.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackRole.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackRole.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUser.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUser.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java" afterPath="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/AuthenticationBeanConfig.java" afterPath="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/AuthenticationBeanConfig.java" />
-      <change beforePath="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authorize/package-info.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/BrowserProperties.java" afterPath="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/BrowserProperties.java" />
-      <change beforePath="$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java" afterPath="$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java" />
+      <change beforePath="$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java" afterPath="$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/doc/application-example.properties" afterPath="$PROJECT_DIR$/doc/application-example.properties" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/pom.xml" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackModule.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackModule.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackModule.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackRole.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackRoleModule.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackUser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/pojo/BackUserRole.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleModuleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleModuleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserRoleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserService.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/dataCount/req/LoanDataReq.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/dataCount/result/LoanDataResult.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/pom.xml" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/pom.xml" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/Bootstrap.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/Bootstrap.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackRoleController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackRoleController.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackUserController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackUserController.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackModuleDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackModuleDao.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleDao.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleModuleDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleModuleDao.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserDao.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserRoleDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserRoleDao.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/interceptor/LoginInterceptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleModuleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleModuleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserRoleService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserService.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/common/controller/BaseController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/common/controller/BaseController.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/config/DefaultWebAppConfigurer.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/config/MyApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/loan/controller/LoanConsumerController.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/loan/controller/LoanConsumerController.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/dao/IDepartmentPromoterDao.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/dao/IDepartmentPromoterDao.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/DepartmentPromoterServiceImpl.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/DepartmentPromoterServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/IDepartmentPromoterService.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/IDepartmentPromoterService.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/static/js/demo/imgUp.js" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/static/js/demo/imgUp.js" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/index.ftl" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/index.ftl" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/login.html" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/public/loginpage.html" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/dao/IBackUserDaoTest.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/dao/IBackUserDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/service/BackUserServiceTest.java" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/service/BackUserServiceTest.java" />
       <change beforePath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/pom.xml" afterPath="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,11 +77,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java">
+      <file leaf-file-name="RbacUserDetailsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackModuleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,28 +112,8 @@
       <file leaf-file-name="FormAuthenticationConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/FormAuthenticationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="470">
               <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultAuthorizeConfigProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authorize/DefaultAuthorizeConfigProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +122,48 @@
       <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="168">
               <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RbacServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultAuthenctiationFailureHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/authentication/DefaultAuthenctiationFailureHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,48 +172,8 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RbacUserDetailsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackModuleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RbacServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="181">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,12 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AuthenticationSuccessHandler</find>
-      <find>imooc</find>
-      <find>vxianjin.aegis.browser</find>
-      <find>vxianjin.aegis.browser.signInPage</find>
-      <find>signInResponseType</find>
-      <find>prefix</find>
       <find>imooc.security</find>
       <find>vxianjin.aegis</find>
       <find>UserDetailsService</find>
@@ -189,6 +215,12 @@
       <find>SecurityController</find>
       <find>sessionInvalidUrl</find>
       <find>spring.mvc</find>
+      <find>BrowserProperties</find>
+      <find>persistent_logins</find>
+      <find>/code/image</find>
+      <find>/image</find>
+      <find>/code</find>
+      <find>/backdepartment</find>
     </findStrings>
     <replaceStrings>
       <replace>com.vxianjin.aegis</replace>
@@ -223,36 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/dto/AdminInfo.java" />
-        <option value="$PROJECT_DIR$/aegis-demo/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/aegis-demo/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/pom.xml" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/pom.xml" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/pom.xml" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/Resource.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/Admin.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/ResourceType.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackModuleType.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/Role.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/RoleAdmin.java" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/authority/role.ftl" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/AdminRepository.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/ResourceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/ResourceService.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUserRole.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackRoleModule.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackDepartment.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackModule.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/init/AdminDataInitializer.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackUserRoleRepository.java" />
         <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackRole.java" />
         <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackRoleRepository.java" />
         <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackModuleRepository.java" />
@@ -260,20 +262,50 @@
         <option value="$PROJECT_DIR$/aegis-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackRoleModule.java" />
         <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackRoleModuleRepository.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUser.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java" />
         <option value="$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java" />
         <option value="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/AuthenticationBeanConfig.java" />
         <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/login.ftl" />
         <option value="$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java" />
         <option value="$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/BrowserProperties.java" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties" />
         <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/config/DefaultWebAppConfigurer.java" />
         <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java" />
+        <option value="$PROJECT_DIR$/doc/application-example.properties" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackDepartment.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackRoleModuleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-api/src/main/java/com/vxianjin/plutus/core/authority/service/IBackUserRoleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/IDepartmentPromoterService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/dao/IDepartmentPromoterDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/service/DepartmentPromoterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackRoleController.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackUserController.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackModuleDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleModuleDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserRoleDao.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleModuleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserRoleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/common/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/loan/controller/LoanConsumerController.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/dao/IBackUserDaoTest.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/service/BackUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java" />
+        <option value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUser.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -339,8 +371,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -393,6 +426,68 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="authorize" type="462c0819:PsiDirectoryNode" />
               <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -458,7 +553,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="logout" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -468,7 +563,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
+              <item name="aegis-browser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -518,36 +623,6 @@
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
-              <item name="aegis-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="authorize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
-              <item name="aegis-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
-              <item name="aegis-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-aegis" type="462c0819:PsiDirectoryNode" />
               <item name="aegis-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -584,6 +659,78 @@
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
               <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
               <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="authority" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="authority" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
+              <item name="plutus-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -643,69 +790,6 @@
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second-plutus" type="462c0819:PsiDirectoryNode" />
-              <item name="plutus-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -737,6 +821,209 @@
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty.websocket:websocket-server:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty.websocket:websocket-server:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+              <item name="websocket-server-9.4.6.v20170531.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty.websocket:websocket-server:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+              <item name="websocket-server-9.4.6.v20170531.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty:jetty-servlet:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty:jetty-servlet:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+              <item name="jetty-servlet-9.4.6.v20170531.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jetty:jetty-servlet:9.4.6.v20170531" type="70bed36:NamedLibraryElementNode" />
+              <item name="jetty-servlet-9.4.6.v20170531.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="actuate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-actuator-1.5.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="actuate" type="462c0819:PsiDirectoryNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-config:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-config:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-config-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-config:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-config-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-config:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-config-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="intercept" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="vote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.security:spring-security-web:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -751,6 +1038,32 @@
               <item name="Maven: org.springframework.security:spring-security-web:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-security-web-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="intercept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -798,6 +1111,59 @@
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+              <item name="ast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+              <item name="standard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-expression-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -820,6 +1186,15 @@
               <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
@@ -840,16 +1215,60 @@
               <item name="method" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-aegis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUserRole.java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -864,20 +1283,24 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="SearchEverywhereHistoryKey" value="SecurityController&#9;FILE&#9;file://C:/Developer/OtherWorkSpace/my-aegis/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java&#10;BrowserSecurityBeanConfig&#9;FILE&#9;file://C:/Developer/OtherWorkSpace/my-aegis/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityBeanConfig.java&#10;Test&#9;FILE&#9;file://C:/Developer/OtherWorkSpace/my-aegis/aegis-demo/src/test/java/test.java" />
     <property name="add_unversioned_files" value="true" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUserRole.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp\public" />
-      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp\templates" />
-      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\resources\dev" />
-      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Developer\OtherWorkSpace\my-aegis\aegis-authorize\src\main\java\com\vxianjin\aegis\authorize\domain" />
       <recent name="C:\Developer\OtherWorkSpace\my-aegis\aegis-authorize\src\main\java\com\vxianjin\aegis\authorize" />
       <recent name="C:\Developer\OtherWorkSpace\my-aegis" />
       <recent name="C:\Developer\OtherWorkSpace\my-aegis\aegis-browser\src\main\java\com\vxianjin\aegis\browser" />
       <recent name="C:\Developer\OtherWorkSpace\my-aegis\aegis-core\src\main\java\com\vxianjin\aegis\core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vxianjin.aegis.authorize.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp\public" />
+      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp\templates" />
+      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\resources\dev" />
+      <recent name="C:\Developer\WorkSpace\wuyun\second-plutus\plutus-core\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1117,7 +1540,11 @@
       <workItem from="1519904642931" duration="2574000" />
       <workItem from="1519956311982" duration="4083000" />
       <workItem from="1520229002887" duration="2029000" />
-      <workItem from="1520320332562" duration="2136000" />
+      <workItem from="1520320332562" duration="7458000" />
+      <workItem from="1520392446844" duration="10465000" />
+      <workItem from="1520413866894" duration="653000" />
+      <workItem from="1520424568684" duration="2947000" />
+      <workItem from="1520477388590" duration="3871000" />
     </task>
     <task id="LOCAL-00001" summary="正式移植前准备">
       <created>1519292328564</created>
@@ -1162,7 +1589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113032000" />
+    <option name="totallyTimeSpent" value="136290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1175,7 +1602,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
@@ -1186,7 +1612,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.681465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32741398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1623,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70144284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2805794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30633047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1207,6 +1633,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70033294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1224,7 +1651,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.681465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27857935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32741398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1236,7 +1663,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70144284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2805794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3106223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70033294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1296,12 +1723,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java</url>
           <line>37</line>
           <properties />
@@ -1321,13 +1742,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java</url>
-          <line>39</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java</url>
-          <line>77</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -1351,7 +1772,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java</url>
-          <line>23</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -1362,318 +1783,395 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authorize/DefaultAuthorizeConfigProvider.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java</url>
           <line>43</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackRoleController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserService.java</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java">
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/authority/page.ftl">
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackDepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-2304">
+          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/authority/role.ftl">
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4872">
-          <caret line="105" column="42" lean-forward="false" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+        <state relative-caret-position="-748">
+          <caret line="139" column="21" lean-forward="false" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/authority/department_add.ftl">
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/BackUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
-          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="139" column="19" lean-forward="false" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-demo/src/main/java/com/vxianjin/aegis/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackModuleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackRoleModuleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/dao/IBackUserRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleModuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1868">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/service/BackUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/promoter/dao/IDepartmentPromoterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/common/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="187" column="30" lean-forward="false" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/loan/controller/LoanConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/dao/IBackUserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/test/java/com/vxianjin/plutus/core/authority/service/BackUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/authentication/DefaultAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="448">
+          <caret line="63" column="77" lean-forward="true" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/dto/AdminInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/dto/RoleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/dto/ResourceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/dto/AdminCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/spec/AdminSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/authorize/BrowserAuthorizeConfigProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="6">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/impl/SessionValidateCodeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="-720">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/logout/DefaultLogoutSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authorize/DefaultAuthorizeConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/social/SocialConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/DefaultUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/validate/code/ValidateCodeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-demo/src/test/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/authentication/DefaultAuthenctiationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/session/DefaultInvalidSessionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/session/DefaultExpiredSessionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/session/AbstractSessionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="58" column="83" lean-forward="false" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+        <state relative-caret-position="-456">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authorize/RbacAuthorizeConfigProvider.java">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackModuleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/DefaultSocialUserDetailsService.java">
+    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/SessionProperties.java">
+    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/cache/SpringCacheBasedUserCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/preauth/AbstractPreAuthenticatedProcessingFilter.java">
+    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state relative-caret-position="190">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16-sources.jar!/javax/servlet/Filter.java">
+    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/authentication/CachingUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/validate/code/ValidateCodeSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/SecurityConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        <state relative-caret-position="504">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/application-example.properties">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/support/GenericUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/public/loginpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="136" lean-forward="false" selection-start-line="38" selection-start-column="136" selection-end-line="38" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/AuthenticationBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/webapp/templates/index.ftl">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/support/Domain2InfoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/support/AbstractConditionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4152">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/config/DefaultWebAppConfigurer.java" />
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/config/MyApplication.java" />
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/interceptor/LoginInterceptor.java" />
-    <entry file="jar://D:/Developer/DeveloperWare/Server/maven-wuyun/mavenRepository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE-sources.jar!/org/springframework/util/AntPathMatcher.java">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/support/CommonSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="173" column="21" lean-forward="false" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
+        <state relative-caret-position="1224">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
-            <element signature="e#6174#6175#0" expanded="false" />
-            <element signature="e#6222#6223#0" expanded="false" />
+            <element signature="e#958#969#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/properties/BrowserProperties.java">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/support/QueryResultConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/resources/dev/application.properties">
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/repository/BackUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="240">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/domain/BackUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#4690#4691#0" expanded="false" />
+            <element signature="e#4722#4723#0" expanded="false" />
+            <element signature="e#4779#4780#0" expanded="false" />
+            <element signature="e#4821#4822#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackModuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/BackUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authentication/FormAuthenticationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="470">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
@@ -1681,39 +2179,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="168">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-core/src/main/java/com/vxianjin/aegis/core/authorize/DefaultAuthorizeConfigProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/BrowserSecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/BackModuleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/aegis-browser/src/main/java/com/vxianjin/aegis/browser/authentication/DefaultAuthenctiationFailureHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/authentication/RbacUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="390">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
@@ -1721,24 +2211,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../WorkSpace/wuyun/second-plutus/plutus-core/src/main/java/com/vxianjin/plutus/core/authority/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="181">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aegis-authorize/src/main/java/com/vxianjin/aegis/authorize/service/impl/RbacServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
